@@ -38,9 +38,9 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 2rem;
   }
   .about-containers {
     margin-top: 0;
@@ -102,5 +102,16 @@
   }
   .text-container {
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section__pic-container {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto 2rem;
+  }
+  .about {
+    margin: 200px 5%;
   }
 }
